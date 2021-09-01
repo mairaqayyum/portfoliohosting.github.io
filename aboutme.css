@@ -1,0 +1,136 @@
+.bodyabout{
+    background-color: black;
+    color:white;
+    /* height: 600px; */
+    padding: 30px;
+}
+.aboutme{
+    text-align: center;
+    color:white;
+    margin-bottom: 20px;
+
+}
+.aboutme:after{
+    content:'';
+    background-color:  rgb(6, 85, 36);
+    display:block;
+    width:145px;
+    height:5px;
+    margin: 10px auto;
+    /* margin-left:530px; */
+    border-radius:2px;
+    
+}
+.progress{
+    margin-top:10px;
+    height:10px;
+}
+.heading4{
+    margin-top:10px;
+}
+#abc{
+    margin-top:10px;
+}
+
+#iconss{
+    margin:5px;
+}
+
+/* @media only screen and  (max-width:1024px) {
+.bodyabout{
+   
+    height: 310px;
+    padding: 30px;
+}
+    .aboutme img{
+     width:70px;
+
+    }
+    .about h1{
+        font-size:15px;
+        margin-top:4px;
+    }
+    .about:after{
+        
+        width:70px;
+        height:3px;
+        margin-left:115px;
+        border-radius:1px;
+        
+    }
+    #abc{
+        font-size:6px;
+        margin-top:5px;
+
+    }
+    .heading4{
+        font-size:10px;
+        margin-top:5px;
+    }
+    .progress{
+        margin-top:5px;
+        height:3px;
+    }
+    #iconss{
+        margin:2px;
+    }
+
+}
+@media only screen and  (min-width:370px) {
+    .about:after{
+        margin-left:122px;
+           
+    }
+}
+@media only screen and  (min-width:400px){
+    .about:after{
+        margin-left:140px;
+           
+    }
+}
+@media only screen and  (min-width:500px){
+    .about:after{
+        margin-left:205px;
+           
+    }
+}
+@media only screen and  (min-width:700px){
+    .about:after{
+        margin-left:320px;
+           
+    }
+} */
+
+@media only screen and  (max-width:650px){
+    #abc{
+        font-size:10px;
+        /* margin-top:5px; */
+
+    }
+    .heading4{
+        font-size:15px;
+        /* margin-top:5px; */
+    }
+    .progress{
+        /* margin-top:5px; */
+        height:5px;
+    }
+}
+@media only screen and  (max-width:310px){
+    #abc{
+        font-size:7px;
+        /* margin-top:5px; */
+
+    }
+    .heading4{
+        font-size:10px;
+        /* margin-top:5px; */
+    }
+    .progress{
+        /* margin-top:5px; */
+        height:3px;
+    }
+    .aboutme:after{
+        width:110px;
+    }
+}

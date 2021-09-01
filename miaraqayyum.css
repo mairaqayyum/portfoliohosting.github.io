@@ -1,0 +1,322 @@
+.navbar-brand{
+    font-weight: bold;
+    font-size: 30px;
+    font-family:monospace;
+    
+}
+
+.nav-item:hover{
+ 
+  opacity: 0.7;
+ 
+}
+
+
+.navbar-dark .navbar-nav .nav-link{
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+
+
+.navbar-dark .navbar-nav .nav-item{
+    margin: 0 15px;
+    
+}
+
+.nav-link{
+    float:right;
+}
+
+.bodyhome{
+    /* background-image:url(https://images.unsplash.com/photo-1497091071254-cc9b2ba7c48a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTR8fHRlY2hub2xvZ3l8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60); */
+/* 
+    background-image: url(
+        https://images.unsplash.com/photo-1607798748738-b15c40d33d57?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fGNvZGluZyUyMHNldHVwfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60
+        ); */
+
+        background-image: url(
+            https://images.unsplash.com/photo-1607705703571-c5a8695f18f6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGNvZGluZyUyMGNyeXN0YWwlMjBzZXR1cHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60
+            );
+
+    background-repeat: no-repeat;
+    width: 100%;
+    /* height: 620px; */
+    background-size: cover ;
+}
+
+.content{
+    
+    margin-top: 180px;
+    /* margin-left: 70px; */
+    text-align:center;
+}
+
+.content h1{
+    /* color:rgb(52, 129, 230); */
+    color:rgb(216, 235, 247);
+    font-size:80px;
+    font-family:sans-serif;
+    font-weight: bold;
+
+   
+}
+
+.content h2{
+    font-size: 25px;
+    font-family: cursive;
+    color:rgb(39, 109, 240);
+    font-weight:bold;
+}
+
+
+
+.homebutton button{
+    /* margin-left: 530px; */
+    background-color: rgb(11, 100, 11);
+    border:1px solid black;
+    font-family: sans-serif;
+    border-radius:5px;
+    font-weight:normal;
+    color:white;
+    font-size: 20px;
+    padding:5px;    
+    text-align:center;
+    width:140px;
+    height:50px;
+    margin-bottom: 150px;
+    margin-top:10px;
+    
+}
+#homebutton{
+    text-align:center;
+}
+
+button:hover{
+    /* opacity: 0.7; */
+    background-color:rgb(6, 85, 36);
+}
+
+
+#socialmedia{
+    margin-top: 20px;
+    margin-left: 500px;
+    
+}
+
+.social:hover{
+    color: white;
+    opacity: 0.7;
+
+}
+.bodyfooter{
+    background-color: rgb(4, 56, 34); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 180px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding:0px;
+  
+    /* padding-top: 50px; */
+    /* margin-top: 50px; */
+}
+
+.footer{
+  
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px;
+    font-size: 17px;
+    
+}
+
+.foot{
+    font-size: 20px;
+}
+
+
+/* @media only screen and  (min-width:360px)  */
+
+/* @media only screen and  (max-width:1024px)  */
+
+/* @media only screen and  (max-width:800px) 
+{
+
+    .bodyhome{
+        background-size:contain;
+        height: 250px;
+    }
+    
+    .content h1{
+        font-size:15px;    
+        text-align:center;
+        
+    }
+    .content h2{
+        font-size:10px;
+        text-align:center;
+    }
+    
+    .content{
+        margin-top:70px;
+    }
+    .homebutton button{
+      
+        margin-left: 140px;
+        border-radius:5px;
+        font-size: 11px;
+        width:70px;
+        height:30px;
+        margin-top:7px;
+      
+    }
+    .footer{
+        
+        padding: 20px;
+        font-size: 10px;
+        padding-top: 40px;
+    }
+    .foot{
+        font-size: 13px;
+    }
+    
+    .navbar-brand{
+        font-size: 15px;
+        
+    }
+    
+    .navbar-dark .navbar-nav .nav-link{
+        font-weight: 500;
+        font-size: 10px;
+        
+    }
+    .navbar-dark .navbar-nav .nav-item{
+        margin: 0px;
+    }
+    
+    .navbar-dark{
+        height:50px;
+    }
+    
+    .navbar-toggler-icon{
+        font-size:10px;
+    }
+
+    button.navbar-toggler{
+        font-size: 8px;    
+    }
+    .nav-link {
+        
+        width: 100%;
+       
+    }
+  
+}
+
+@media only screen and  (min-width:400px) {
+    .homebutton button{
+       margin-left: 160px;  
+    }
+}
+@media only screen and  (min-width:500px) {
+    .bodyhome{
+        background-size:cover;
+        height: 300px;
+    }
+    .homebutton button{
+        margin-left: 230px;  
+     }
+     .footer{
+        
+        padding: 30px;
+        font-size: 15px;
+        padding-top: 30px;
+    }
+    .foot{
+        font-size: 17px;
+    }
+}
+@media only screen and  (min-width:700px){
+    .bodyhome{
+        background-size:cover;
+        height: 350px;
+    }
+    .homebutton button{
+        margin-left: 340px;  
+     }
+     .footer{
+        
+        padding: 30px;
+        font-size: 15px;
+        padding-top: 30px;
+    }
+    .foot{
+        font-size: 17px;
+    }
+}
+@media only screen and  (max-width:800px){
+    .bodyhome{
+        background-size:cover;
+        height: 350px;
+    }
+    .homebutton button{
+        margin-left: 340px;  
+     }
+     .footer{
+        
+        padding: 30px;
+        font-size: 15px;
+        padding-top: 30px;
+    }
+    .foot{
+        font-size: 17px;
+    }
+} */
+
+@media only screen and  (max-width:650px){
+    .content h1{
+        font-size:60px;
+    }
+    .content h2{
+        font-size: 15px;
+    }
+}
+@media only screen and  (max-width:900px){
+    .footer{
+        
+        padding: 20px;
+        font-size: 15px;
+        padding-top: 40px;
+    }
+    .foot{
+        font-size: 13px;
+    }
+}
+@media only screen and  (max-width:310px){
+    .content h1{
+        font-size:30px;
+    }
+    .content h2{
+        font-size: 9px;
+    }
+    .homebutton button{
+        
+        border-radius:5px;
+        font-size: 15px;
+        padding:3px;    
+        width:110px;
+        height:40px;
+        
+    }
+    
+}
+@media only screen and  (max-width:992px){
+    .navbar-dark .navbar-nav .nav-link{
+        font-weight: 500;
+        font-size: 15px;
+        
+    }
+}

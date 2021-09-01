@@ -1,0 +1,221 @@
+.bodyskills{
+   background-color: black;
+   /* height: 600px; */
+   padding: 30px;
+}
+
+.contain h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    /* margin-left: 30px; */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    
+    
+}
+.contain h1:after{
+    content:'';
+    background-color:  rgb(27, 59, 148);
+    display:block;
+    width:185px;
+    height:5px;
+    margin: 10px auto;
+    border-radius:2px;
+    
+}
+#contain h1:after{
+    text-align:center;
+}
+
+.contain p{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family:monospace;
+    text-align: justify;
+    color:rgb(194, 192, 192);
+}
+
+.contain{
+   margin: 50px ;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    color: white;
+   
+}
+
+
+
+.first1, .second2, .third3, .forth4{
+    float: right;
+    font-weight: 20px;  
+    /* margin-right:160px; */
+    margin-right:14%;
+
+}
+
+
+
+.first, .second, .third, .forth{
+   
+    font-size: 20px;  
+}
+.wrapper{
+    
+    /* font-family: cursive; */
+    font-weight: bold;
+   margin-top:10px;
+    margin-left: 50px;
+    
+}
+#progress{
+    width:82%;
+     margin-left: 50px;
+     /* margin: 50px; */
+}
+
+/* @media only screen and  (max-width:1024px){
+    .bodyskills{
+        height: 360px;
+        padding: 30px;
+     }
+     .contain h1{
+        font-size: 15px;
+    }
+    .contain h1:after{
+       
+        width:60px;
+        height:3px;
+        margin-left:100px;
+        border-radius:2px;
+        
+    }
+    .contain p{
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size:8px;
+    }
+    .contain{
+   
+        margin-left: 10px;
+        margin-right: 10px;   
+    }
+    
+    .first, .second, .third, .forth{
+       
+        font-size: 10px;  
+    }
+    .first1, .second2, .third3, .forth4{
+        font-size: 10px;  
+        margin-top:5px;
+        float:right;
+        margin-right:45px;
+    }
+    .wrapper{
+       margin-top:2px;
+        margin-left: 20px;
+        
+    }
+    #progress{
+        width:220px; 
+        margin-left: 20px;
+       
+    }
+}
+@media only screen and  (min-width:370px) {
+    .contain h1:after{
+        margin-left:105px;    
+    }
+    #progress{
+        width:235px; 
+    }
+}
+@media only screen and  (min-width:400px){
+    .contain h1:after{
+        margin-left:125px;    
+    }
+    #progress{
+        width:270px;  
+    }
+}
+@media only screen and  (min-width:500px){
+    .contain h1:after{
+        margin-left:190px;    
+    }
+    #progress{
+        width:400px;  
+    }
+}
+@media only screen and  (min-width:700px){
+    .contain h1:after{
+        margin-left:305px;    
+    }
+    #progress{
+        width:620px;  
+    }
+} */
+@media only screen and  (max-width:800px){
+    .contain p{
+        font-size:13px;
+    }
+    .first1, .second2, .third3, .forth4{
+        float: right;
+        font-weight: 15px;  
+        margin-right:14%;
+    }
+    
+    .contain{
+        margin: 30px ;
+    }
+    
+    .first, .second, .third, .forth{
+       font-size: 15px;  
+    }
+    #progress{
+        margin-left: 30px;
+    }
+    .wrapper{
+        margin-left: 30px;
+        
+    }
+}
+@media only screen and  (max-width:310px){
+    .contain h1{
+        font-size: 30px;
+        padding: 7px;
+        
+        
+    }
+    .contain h1:after{
+        width:120px;
+        height:4px;
+        margin: 7px auto;  
+    }
+    .contain p{
+        font-size:8px;
+    }
+    .first1, .second2, .third3, .forth4{
+        float: right;
+        font-size: 20px; 
+        /* font-weight:5px;  */
+        margin-right:10%;
+    }
+    
+    .contain{
+        margin: 15px ;
+    }
+    
+    .first, .second, .third, .forth{
+       font-size: 10px;  
+    }
+    #progress{
+        margin-left: 20px;
+    }
+    .wrapper{
+        margin-left: 20px;
+        
+    }
+
+}
